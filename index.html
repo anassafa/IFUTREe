@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+      <div class="heading">
+    <div class="container">
+      <div class="navbar">
+         <h1 class="logo">logo</h1>
+         <nav class="noneed">
+            <ul>
+                <li><a href="#">link1</a></li>
+                <li><a href="#">link2</a></li>
+                <li><a href="#">link3</a></li>
+                <li><a href="#">link4</a></li>
+            </ul>
+         </nav>
+         <!--btn toggler-->
+         <button
+         class="btn  bt01"
+         type="button"
+         data-bs-toggle="offcanvas"
+         data-bs-target="#offcanvasWithBackdrop"
+         aria-controls="offcanvasWithBackdrop"
+         >
+         <i class="fa fa-bars" aria-hidden="true"></i>
+         </button>
+         <div
+         class="offcanvas offcanvas-start"
+         tabindex="-1"
+         id="offcanvasWithBackdrop"
+         aria-labelledby="offcanvasWithBackdropLabel"
+         >
+         <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">
+            Offcanvas with backdrop
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+         </div>
+        <div class="offcanvas-body">
+          <a href="#" >link 3</a>
+        </div>
+        <!--end of toggler-->       
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <h2>IFuture</h2>
+            <h3>Award-winning IT Company</h3>
+            <p>Vitae congue mauris rhoncus aenean vel elit <br>scelerisque. Consequat nisl vel pretium lectus <br>quam id leo in vitae. Dictum sit amet justo donec <br>enim diam vulputate. Sociis natoque penatibus<br> et magnis dis parturient. Molestie ac feugiat sed lectus vestibulum mattis.</h4></p>
+            <h4>Image from <a href="#">freepik</a></h4>
+            <a class="lmbtn" href="#"> LEARN MORE</a>
+        </div>
+        <div class="col-2">
+            <img src="./imgs-svg/asset.png" class="thinking">
+        </div>
+    </div>
+    </div>
+    <!--secand section-->
+    <div class="section2">
+    <div class="container02">
+        <img src="./imgs-svg/bluer.png" alt="">
+        <div class="para">
+            <h2 class="ABC" >About Company</h2>
+            <p class="pABC" >Duis aute irure dolor in reprehenderit in voluptate velit <br>  cillum dolore eu fugiat nulla pariatur.  Excepteur  <br>sint occaecat cupidatat non proident, sunt  in culpa qui<br> officia deserunt mollit anim id est  laborum.<br></p>
+            <h3 class="sABC" >Images from <a class="aABC" href="#">Freepik</a></h3>
+            <a href="#" class="RMbtn" >READ MORE</a>
+        </div>
+    </div>
+    </div>
+    <!--section number3-->
+    <div class="section3">
+        <div class="container03">
+            <img src="./imgs-svg/blue.png" alt="blue" class="blue">
+            <img src="./imgs-svg/rose.png" alt="rose" class="rose">
+            <div class="para02">
+                <h1 class="RTY">Ready To Try?</h1> 
+                <h3 class="sunff">sign up now for free</h3>
+                <button class="Lm"> Learn more</button>
+            </div>
+            <div class="para03">
+                <h1 class="Ap">About App</h1> 
+                <h3 class="Jwtu">Just write to us!</h3>
+                <button class="Cs"> Contact us</button>
+            </div>
+        </div>
+    </div>
+    <!--section number4-->
+    <div class="container04">
+        <h3 class="faq">FAQ</h3>
+        <h1 class="FAQ">Frequently Asked Questions</h1>
+        <!--accordion-->
+        <div class="accordion acce " id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What other services are you compatible with?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    I have a technical I need resolved, who do I email?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What other services are you compatible with?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end of accordion-->
+    </div>
+    <!--section number5-->
+    <div class="container05">
+      <h1 class="Haso" >Here are some options</h1>
+      <div class="Fp1"> 
+      <h2 class="Fhp1">Tell about your service</h2>
+      <p class="Fpp1">Nisi lacus sed viverra tellus in hac habitasse platea. Enim eu <br> egestas pretium aenean pharetra. Mus mauris vitae <br> ultricies leo integer malesuada nunc vel.</p>
+     </div>
+     <div class="Fp2"> 
+      <h2 class="Fhp2">Tell about advantages</h2>
+      <p class="Fpp2">Nisi lacus sed viverra tellus in hac habitasse platea. Enim eu <br> turpis egestas pretium aenean pharetra. Mus mauris vitae <br> ultricies leo integer malesuada nunc vel.</p>
+     </div>
+     <div class="Fp3"> 
+      <h2 class="Fhp3">Make call to action</h2>
+      <p class="Fpp3">Nisi lacus sed viverra tellus in hac habitasse platea. Enim eu <br> turpis egestas pretium aenean pharetra. Mus mauris vitae <br> ultricies leo integer malesuada nunc vel.</p>
+     </div>
+     <div class="Fli">
+       <ul class="comL" >
+       <li>Nisi lacus sed viverra tellus</li>
+       <hr style="margin: 5px 0;">
+       <li>Enim eu turpis egestas pretium</li>
+       <hr style="margin: 5px 0;">
+       <li>Mus mauris vitae ultricies</li>
+       <hr style="margin: 5px 0;" >
+       <li>Ut sem nulla pharetra</li>
+      </ul>
+      
+     </div>
+     <img class="checkm" src="./imgs-svg/check mark.png" alt="check mark">
+
+     <a href="#" class="LM2" >LEARN MORE</a>
+    </div>
+    <!--section number6-->
+    <div class="container06">
+      <h1 class="h06" >Read what our customers say</h1>
+      <img class="img06" src="./imgs-svg/4models.png" alt="4 models">
+
+      <div class="para001">
+        <h2 class="h001"> Celia Almeda</h2>
+        <h5 class="f001">CEO Mailcharm</h5>
+        <p>Proin sed libero enim sed faucibus turpis. At imperdiet <br>dui accumsan sit amet nulla facilisi morbi tempus. Ut <br>sem nulla pharetra diam sit amet nisl. Enim nunc <br>faucibus a pellentesque sit amet. Sed turpis tincidunt id <br>aliquet risus feugiat in ante metus.</p>      </div>
+      <div class="para002">
+        <h2 class="h002">Phoebe Nelson</h2>
+        <h5 class="f002">Sales Manager</h5>
+        <p>Proin sed libero enim sed faucibus turpis. At imperdiet <br>dui accumsan sit amet nulla facilisi morbi tempus. Ut <br>sem nulla pharetra diam sit amet nisl. Enim nunc <br>faucibus a pellentesque sit amet. Sed turpis tincidunt id <br>aliquet risus feugiat in ante metus.</p>      </div>
+      <div class="para003">
+        <h2 class="h003">
+          Frank Kinney</h2>
+        <h5 class="f003">Financial Directo</h5>
+        <p>Proin sed libero enim sed faucibus turpis. At imperdiet <br>dui accumsan sit amet nulla facilisi morbi tempus. Ut <br>sem nulla pharetra diam sit amet nisl. Enim nunc <br>faucibus a pellentesque sit amet. Sed turpis tincidunt id <br>aliquet risus feugiat in ante metus.</p>
+      </div>
+      <div class="para004">
+        <h2 class="h004">
+          Jennie Roberts</h2>
+        <h5 class="f004">Office Manager</h5>
+        <p>Proin sed libero enim sed faucibus turpis. At imperdiet <br>dui accumsan sit amet nulla facilisi morbi tempus. Ut <br>sem nulla pharetra diam sit amet nisl. Enim nunc <br>faucibus a pellentesque sit amet. Sed turpis tincidunt id <br>aliquet risus feugiat in ante metus.</p>      </div>
+    <p class="IfF01" >Image from <a href="#" >freepik</a></p>
+      </div>
+      <!--section number7-->
+      <div class="container07">
+        <h1 class="MS07" >Marketing Services</h1>
+        <p class="MS071" >Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure </p>
+        <p class="MS072">dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="imgcontainer07" >
+          
+          <img class="img701" src="./imgs-svg/adv/adv01.png" alt="Marketing">
+          <img class="img702" src="./imgs-svg/adv/adv02.png" alt="Development">
+          <img class="img703" src="./imgs-svg/adv/adv03.png" alt="Advertising">
+        </div>
+        
+        <div class="contentcontainer01">
+          <h2>Marketing</h2>
+            <h3>Sample text. Click to select<br> the text  box. Click again or  <br>click to start editing the text.</h3>           
+            <button>LEARN MORE</button>
+        </div>
+        <div class="contentcontainer02">
+          <h2>Development</h3>
+            <h3>Sample text. Click to select<br> the text  box. Click again or  <br>click to start editing the text.</h3>           
+             <button>LEARN MORE</button>
+        </div>
+        <div class="contentcontainer03">
+          <h2>Advertising</h3>
+            <h3>Sample text. Click to select<br> the text  box. Click again or  <br>click to start editing the text.</h3>           
+            <button>LEARN MORE</button>
+        </div>
+      <!--section number8-->
+        <div class="container08">
+          <img src="./imgs-svg/fasila.png" alt="fasila">
+          <div class="contcont01">
+          <h1>We help your business to grow</h1>
+          <p>A full-service digital agency has the staff to implement a multi- <br>channel marketing strategy and manage your advertising <br>campaigns. They help you reach your target market in multiple<br> advertising channels and multiple devices.</p>
+          <button>Contact us</button>
+        </div>
+        <p class="pcont02" >Our team comes to your rescue in order to help <br>you cope with this state of confusion. It’s a 360°<br> digital marketing agency that takes care of <br>everything that you need to build an unshakable <br>and strong presence for your brand in <br>this new digital world.</p>
+        </div>
+     <!--section number9-->
+     <div class="container09">
+        <div  class="bluebox"></div>
+        <img src="./imgs-svg/fs.jpg" class="chiimage">
+        <div class="pinkbox">
+          <h1>CONTACT US</h1>
+          <input class="intext" type="text" placeholder="   Enter your Name" >
+          <input class="inemail"  type="email" placeholder="  Enter your Email Adress" >
+          <textarea></textarea>
+          <button>SUBMIT</button>
+        </div>
+     </div>
+          <!--section number10-->
+          <div class="container10">
+            <h5>Sample text. Click to select the text box. Click again or double</h5>
+            <h5>click to start editing the text.</h5>
+            <p><a href="#">Website Templates </a>created with <a href="#" >Website Builder Software.</a></p>
+          </div>
+      </div>
+    5
+    <script src="" async defer></script>
+  </body>
+ </html>
+ 
